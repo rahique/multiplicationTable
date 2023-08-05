@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: grid; justify-content: center; position: relative">
+      <div style="position: sticky; top: 3px">
+        <input
+          type="number"
+          class="input"
+          style="
+            max-width: 12rem;
+            border: none;
+            outline: 3px solid lightgreen;
+            font-size: 1.5rem;
+            font-weight: 500;
+          "
+          placeholder="number only"
+        />
+        <button
+          onclick="hello()"
+          style="
+            max-width: 5rem;
+            border: none;
+            outline: 3px solid lightgreen;
+            background: lightgreen;
+            font-size: 1.5rem;
+            color: #313131;
+          "
+        >
+          click
+        </button>
+        <button
+          onclick="bye()"
+          style="
+            max-width: 5rem;
+            border: none;
+            outline: 3px solid rgb(236, 99, 75);
+            background: rgb(236, 99, 75);
+            font-size: 1.5rem;
+            color: #eeeeee;
+          "
+        >
+          clear
+        </button>
+      </div>
+      <div class="table"></div>
+    </div>
+    <script src="mt.js"></script>
+  </body>
+</html>
