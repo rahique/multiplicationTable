@@ -1,1 +1,1 @@
-#https://rahique.github.io/multiplicationTable/
+https://rahique.github.io/multiplicationTable/
