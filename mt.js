@@ -23,5 +23,8 @@ function hello() {
   });
 }
 function bye() {
-  location.reload();
+  let dtable = document.querySelector('.table');
+  let inputVal = document.querySelector('.input').value;
+  dtable.innerHTML = '';
+  inputVal = '';
 }
