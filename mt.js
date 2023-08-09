@@ -3,8 +3,12 @@ function hello() {
   let input = document.querySelector('.input').value;
   let arr = [];
   let i = 1;
+
   for (i; i <= input; i++) {
     arr.push(i);
+  }
+  if (input !== 0 || '') {
+    dtable.innerHTML = '';
   }
   arr.forEach((x) => {
     for (let i = 1; i !== 11; i++) {
