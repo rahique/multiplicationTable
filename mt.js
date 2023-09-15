@@ -3,7 +3,6 @@ function hello() {
   let input = document.querySelector('.input').value;
   let arr = [];
   let i = 1;
-
   for (i; i <= input; i++) {
     arr.push(i);
   }
@@ -24,7 +23,7 @@ function hello() {
 }
 function bye() {
   let dtable = document.querySelector('.table');
-  let inputVal = document.querySelector('.input').value;
+  let input = document.querySelector('.input');
+  input.value = '';
   dtable.innerHTML = '';
-  inputVal = '';
 }
