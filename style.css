@@ -1,0 +1,27 @@
+.hello {
+  max-width: 5rem;
+  border: none;
+  outline: 3px solid lightgreen;
+  background: lightgreen;
+  font-size: 1.5rem;
+  color: #313131;
+}
+.bye {
+  max-width: 5rem;
+  border: none;
+  outline: 3px solid rgb(236, 99, 75);
+  background: rgb(236, 99, 75);
+  font-size: 1.5rem;
+  color: #eeeeee;
+}
+.hello:active,
+.bye:active {
+  translate: 0px 2px;
+}
+.input {
+  max-width: 12rem;
+  border: none;
+  outline: 3px solid lightgreen;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
