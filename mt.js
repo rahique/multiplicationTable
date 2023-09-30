@@ -16,9 +16,7 @@ function hello() {
   }
   arr.forEach((x) => {
     for (let i = 1; i !== 11; i++) {
-      dtable.innerHTML += `<h1 style="text-align: center">${x} X ${i} = ${
-        x * i
-      }<br><h1>`;
+      dtable.innerHTML += `<h1>${x} X ${i} = ${x * i}<br><h1>`;
       if (i === 10) {
         dtable.innerHTML += '<hr>';
       }
