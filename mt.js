@@ -1,17 +1,17 @@
 let helloBtn = document.querySelector('.hello');
 let byeBtn = document.querySelector('.bye');
+let dtable = document.querySelector('.table');
+let input = document.querySelector('.input');
 
 helloBtn.addEventListener('click', hello);
 byeBtn.addEventListener('click', bye);
 
 function hello() {
-  let dtable = document.querySelector('.table');
-  let input = document.querySelector('.input').value;
   let arr = [];
-  for (let i = 1; i <= input; i++) {
+  for (let i = 1; i <= input.value; i++) {
     arr.push(i);
   }
-  if (input !== 0 || '') {
+  if (input !== '') {
     dtable.innerHTML = '';
   }
   arr.forEach((x) => {

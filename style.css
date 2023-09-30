@@ -6,10 +6,12 @@ body {
 .hello {
   max-width: 5rem;
   border: none;
-  outline: 3px solid lightgreen;
-  background: lightgreen;
+  outline: 3px solid rgb(139, 231, 139);
+  background: rgb(139, 231, 139);
   font-size: 1.5rem;
-  color: #313131;
+  color: #eeeeee;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #1616165d;
 }
 .bye {
   max-width: 5rem;
@@ -19,6 +21,8 @@ body {
   font-size: 1.5rem;
   color: #eeeeee;
   border-radius: 0px 3px 3px 0px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #1616165d;
 }
 .hello:active,
 .bye:active {
@@ -27,12 +31,14 @@ body {
 .input {
   max-width: 12rem;
   border: none;
-  outline: 3px solid lightgreen;
+  outline: 3px solid rgb(139, 231, 139);
   font-size: 1.5rem;
   font-weight: 500;
-  background: #161616;
+  background: #4de62710;
+  backdrop-filter: blur(20px);
   color: #eeeeee;
   border-radius: 3px 0px 0px 3px;
+  padding-left: 10px;
 }
 .table {
   text-align: center;
